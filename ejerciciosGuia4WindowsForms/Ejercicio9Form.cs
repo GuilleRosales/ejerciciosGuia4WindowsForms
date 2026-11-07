@@ -40,5 +40,12 @@ namespace ejerciciosGuia4WindowsForms
                 lblResultado.Text = $"El número ingresado es {numero}. Es igual a cero.";
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormInicio menu = new FormInicio();
+            menu.Show();
+        }
     }
 }

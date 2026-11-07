@@ -41,6 +41,8 @@
             this.lblCampo1 = new System.Windows.Forms.Label();
             this.lblCampo2 = new System.Windows.Forms.Label();
             this.txtCampo2 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -193,11 +195,23 @@
             this.txtCampo2.Visible = false;
             this.txtCampo2.TextChanged += new System.EventHandler(this.txtCampo2_TextChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ejerciciosGuia4WindowsForms.Properties.Resources._3279337;
+            this.pictureBox1.Location = new System.Drawing.Point(722, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(78, 82);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Ejercicio7Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblCampo2);
             this.Controls.Add(this.txtCampo2);
             this.Controls.Add(this.lblCampo1);
@@ -214,6 +228,7 @@
             this.Name = "Ejercicio7Form";
             this.Text = "Ejercicio7Form";
             this.Load += new System.EventHandler(this.Ejercicio7Form_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +249,6 @@
         private System.Windows.Forms.Label lblCampo2;
         private System.Windows.Forms.TextBox txtCampo2;
         private System.Windows.Forms.Label lblCampo1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

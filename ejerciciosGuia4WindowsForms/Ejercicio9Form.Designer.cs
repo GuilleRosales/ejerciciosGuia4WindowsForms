@@ -33,7 +33,9 @@
             this.btnConvertir = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.nudNumero = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudNumero)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -88,11 +90,23 @@
             this.nudNumero.Size = new System.Drawing.Size(218, 20);
             this.nudNumero.TabIndex = 18;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ejerciciosGuia4WindowsForms.Properties.Resources._3279337;
+            this.pictureBox1.Location = new System.Drawing.Point(712, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(88, 85);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Ejercicio9Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnConvertir);
             this.Controls.Add(this.label2);
@@ -102,6 +116,7 @@
             this.Text = "Ejercicio9Form";
             this.Load += new System.EventHandler(this.Ejercicio9Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudNumero)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,5 +129,6 @@
         private System.Windows.Forms.Button btnConvertir;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown nudNumero;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

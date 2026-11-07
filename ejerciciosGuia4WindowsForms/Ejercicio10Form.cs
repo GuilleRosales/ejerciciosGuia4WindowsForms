@@ -102,5 +102,12 @@ namespace ejerciciosGuia4WindowsForms
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormInicio menu = new FormInicio();
+            menu.Show();
+        }
     }
 }

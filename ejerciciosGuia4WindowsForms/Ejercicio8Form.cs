@@ -36,5 +36,12 @@ namespace ejerciciosGuia4WindowsForms
             nudEdad.Minimum = 1;
             nudEdad.Maximum = 100;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormInicio menu = new FormInicio();
+            menu.Show();
+        }
     }
 }

@@ -38,6 +38,8 @@
             this.txtNum1 = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
             this.lblSigno = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbOperación
@@ -93,6 +95,7 @@
             this.label2.Size = new System.Drawing.Size(116, 89);
             this.label2.TabIndex = 5;
             this.label2.Text = "Número 1";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -103,6 +106,7 @@
             this.label3.Size = new System.Drawing.Size(116, 89);
             this.label3.TabIndex = 7;
             this.label3.Text = "Número 2";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtNum2
             // 
@@ -110,6 +114,7 @@
             this.txtNum2.Name = "txtNum2";
             this.txtNum2.Size = new System.Drawing.Size(281, 20);
             this.txtNum2.TabIndex = 6;
+            this.txtNum2.TextChanged += new System.EventHandler(this.txtNum2_TextChanged);
             // 
             // txtNum1
             // 
@@ -117,6 +122,7 @@
             this.txtNum1.Name = "txtNum1";
             this.txtNum1.Size = new System.Drawing.Size(281, 20);
             this.txtNum1.TabIndex = 8;
+            this.txtNum1.TextChanged += new System.EventHandler(this.txtNum1_TextChanged);
             // 
             // lblResultado
             // 
@@ -140,12 +146,24 @@
             this.lblSigno.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblSigno.Visible = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ejerciciosGuia4WindowsForms.Properties.Resources._3279337;
+            this.pictureBox1.Location = new System.Drawing.Point(712, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(88, 85);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Ejercicio5Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblSigno);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtNum1);
@@ -159,6 +177,7 @@
             this.Name = "Ejercicio5Form";
             this.Text = "Ejercicio5Form";
             this.Load += new System.EventHandler(this.Ejercicio5Form_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,5 +194,6 @@
         private System.Windows.Forms.TextBox txtNum1;
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Label lblSigno;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

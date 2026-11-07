@@ -40,6 +40,8 @@
             this.txtCantidad = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cmbTipoCliente = new System.Windows.Forms.ComboBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblResultado
@@ -156,11 +158,23 @@
             this.cmbTipoCliente.Size = new System.Drawing.Size(121, 21);
             this.cmbTipoCliente.TabIndex = 42;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ejerciciosGuia4WindowsForms.Properties.Resources._3279337;
+            this.pictureBox1.Location = new System.Drawing.Point(712, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(88, 85);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 43;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Ejercicio11Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmbTipoCliente);
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.label4);
@@ -176,6 +190,7 @@
             this.Name = "Ejercicio11Form";
             this.Text = "Ejercicio11Form";
             this.Load += new System.EventHandler(this.Ejercicio11Form_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,5 +210,6 @@
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmbTipoCliente;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

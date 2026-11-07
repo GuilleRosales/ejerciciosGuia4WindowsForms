@@ -54,5 +54,12 @@ namespace ejerciciosGuia4WindowsForms
             MessageBox.Show("La apariencia ha sido restaurada", "Completado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormInicio menu = new FormInicio();
+            menu.Show();
+        }
     }
 }

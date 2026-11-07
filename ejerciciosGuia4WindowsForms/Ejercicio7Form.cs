@@ -115,5 +115,12 @@ namespace ejerciciosGuia4WindowsForms
                 lblResultado.Text = $"Área de círculo = π × r². A = {Math.PI * Math.Pow(radio, 2)}";
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormInicio menu = new FormInicio();
+            menu.Show();
+        }
     }
 }

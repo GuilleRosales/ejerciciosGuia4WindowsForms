@@ -20,7 +20,7 @@ namespace ejerciciosGuia4WindowsForms
         private void Ejercicio2Form_Load(object sender, EventArgs e)
         {
             cmbCarrera.Items.AddRange(new string[]
-                { 
+                {
                     "Ingeniería en Sistemas",
                     "Administración de Empresas",
                     "Diseño Gráfico",
@@ -53,6 +53,13 @@ namespace ejerciciosGuia4WindowsForms
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormInicio menu = new FormInicio();
+            menu.Show();
         }
     }
 }

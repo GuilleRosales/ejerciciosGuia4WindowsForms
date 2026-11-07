@@ -48,6 +48,8 @@
             this.btnEj14 = new System.Windows.Forms.Button();
             this.btnEj15 = new System.Windows.Forms.Button();
             this.btnEj16 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNivel1
@@ -298,11 +300,23 @@
             this.btnEj16.UseVisualStyleBackColor = false;
             this.btnEj16.Click += new System.EventHandler(this.btnEj16_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ejerciciosGuia4WindowsForms.Properties.Resources._7331166;
+            this.pictureBox1.Location = new System.Drawing.Point(694, 361);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(107, 86);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnEj16);
             this.Controls.Add(this.btnEj12);
             this.Controls.Add(this.btnEj13);
@@ -326,6 +340,7 @@
             this.Name = "FormInicio";
             this.Text = "Guía de Ejercicios 4";
             this.Load += new System.EventHandler(this.FormInicio_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -352,6 +367,7 @@
         private System.Windows.Forms.Button btnEj14;
         private System.Windows.Forms.Button btnEj15;
         private System.Windows.Forms.Button btnEj16;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

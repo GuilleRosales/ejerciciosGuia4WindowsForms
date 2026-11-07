@@ -16,5 +16,32 @@ namespace ejerciciosGuia4WindowsForms
         {
             InitializeComponent();
         }
+
+        private void Ejercicio13Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnResultados_Click(object sender, EventArgs e)
+        {
+            lstResultados.Items.Clear();
+
+            int numero = Convert.ToInt32(nudNumero.Value);
+
+            for (int i = 1; i <= 10; i++)
+            {
+                lstResultados.Items.Add(
+                    numero + " × " + i + " = " + numero * i
+                );
+            }
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormInicio menu = new FormInicio();
+            menu.Show();
+        }
     }
 }

@@ -32,6 +32,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -156,6 +160,21 @@
     <EmbeddedResource Include="Ejercicio11Form.resx">
       <DependentUpon>Ejercicio11Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio12Form.resx">
+      <DependentUpon>Ejercicio12Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio13Form.resx">
+      <DependentUpon>Ejercicio13Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio14Form.resx">
+      <DependentUpon>Ejercicio14Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio15Form.resx">
+      <DependentUpon>Ejercicio15Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio16Form.resx">
+      <DependentUpon>Ejercicio16Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio1Form.resx">
       <DependentUpon>Ejercicio1Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -194,6 +213,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -207,6 +227,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\3279337.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\7331166.png" />
+    <None Include="Resources\3279337.png" />
+    <None Include="Resources\pngtree-back-arrow-button-png-image_5400757.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

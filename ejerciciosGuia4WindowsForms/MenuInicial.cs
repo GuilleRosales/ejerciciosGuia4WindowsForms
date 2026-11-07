@@ -111,5 +111,10 @@ namespace ejerciciosGuia4WindowsForms
         {
             abrirForm(new Ejercicio16Form());
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
