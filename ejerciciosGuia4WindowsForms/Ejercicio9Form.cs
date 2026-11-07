@@ -16,5 +16,29 @@ namespace ejerciciosGuia4WindowsForms
         {
             InitializeComponent();
         }
+
+        private void Ejercicio9Form_Load(object sender, EventArgs e)
+        {
+            nudNumero.Minimum = -10000000000000;
+        }
+
+        private void btnConvertir_Click(object sender, EventArgs e)
+        {
+            int numero = Convert.ToInt32(nudNumero.Value);
+
+            if (numero < 0)
+            {
+                lblResultado.Text = $"El número ingresado es {numero}. Es negativo.";
+            }
+            else if (numero > 0)
+
+            {
+                lblResultado.Text = $"El número ingresado es {numero}. Es positivo.";
+            }
+            else if (numero == 0)
+            {
+                lblResultado.Text = $"El número ingresado es {numero}. Es igual a cero.";
+            }
+        }
     }
 }

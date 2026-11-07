@@ -150,6 +150,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicio10Form.resx">
+      <DependentUpon>Ejercicio10Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio11Form.resx">
+      <DependentUpon>Ejercicio11Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio1Form.resx">
       <DependentUpon>Ejercicio1Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +164,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio3Form.resx">
       <DependentUpon>Ejercicio3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio4Form.resx">
+      <DependentUpon>Ejercicio4Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio5Form.resx">
+      <DependentUpon>Ejercicio5Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio6Form.resx">
+      <DependentUpon>Ejercicio6Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio7Form.resx">
+      <DependentUpon>Ejercicio7Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio8Form.resx">
+      <DependentUpon>Ejercicio8Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio9Form.resx">
+      <DependentUpon>Ejercicio9Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuInicial.resx">
       <DependentUpon>MenuInicial.cs</DependentUpon>

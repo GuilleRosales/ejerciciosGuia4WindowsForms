@@ -16,5 +16,25 @@ namespace ejerciciosGuia4WindowsForms
         {
             InitializeComponent();
         }
+
+        private void btnConvertir_Click(object sender, EventArgs e)
+        {
+            int edad = Convert.ToInt32(nudEdad.Value);
+
+            if (edad >= 18)
+            {
+                lblResultado.Text = $"Su edad es {edad}, es mayor de edad.";
+            }
+            else
+            {
+                lblResultado.Text = $"Su edad es {edad}, es menor de edad";
+            }
+        }
+
+        private void Ejercicio8Form_Load(object sender, EventArgs e)
+        {
+            nudEdad.Minimum = 1;
+            nudEdad.Maximum = 100;
+        }
     }
 }
