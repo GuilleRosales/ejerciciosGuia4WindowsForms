@@ -162,6 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightYellow;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblResultado);
@@ -175,7 +176,7 @@
             this.Controls.Add(this.lblCampo1);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio10Form";
-            this.Text = "Ejercicio10Form";
+            this.Text = "10. Promedio de estudiante";
             this.Load += new System.EventHandler(this.Ejercicio10Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

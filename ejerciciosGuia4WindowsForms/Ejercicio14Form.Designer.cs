@@ -108,6 +108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.nudNumero);
@@ -116,7 +117,7 @@
             this.Controls.Add(this.lstResultados);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio14Form";
-            this.Text = "Ejercicio14Form";
+            this.Text = "14. Mostrar números pares";
             this.Load += new System.EventHandler(this.Ejercicio14Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudNumero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

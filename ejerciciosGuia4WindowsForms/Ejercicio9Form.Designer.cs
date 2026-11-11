@@ -105,6 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Sienna;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblResultado);
@@ -113,7 +114,7 @@
             this.Controls.Add(this.nudNumero);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio9Form";
-            this.Text = "Ejercicio9Form";
+            this.Text = "9. Número positivo, negativo o cero";
             this.Load += new System.EventHandler(this.Ejercicio9Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudNumero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

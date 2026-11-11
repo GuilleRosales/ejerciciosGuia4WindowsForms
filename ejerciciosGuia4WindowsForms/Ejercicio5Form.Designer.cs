@@ -175,7 +175,7 @@
             this.Controls.Add(this.btnOperar);
             this.Controls.Add(this.cmbOperación);
             this.Name = "Ejercicio5Form";
-            this.Text = "Ejercicio5Form";
+            this.Text = "5. Calculadora básica";
             this.Load += new System.EventHandler(this.Ejercicio5Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -133,6 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -144,7 +145,7 @@
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio12Form";
-            this.Text = "Ejercicio12Form";
+            this.Text = "12. Índice de masa corporal";
             this.Load += new System.EventHandler(this.Ejercicio12Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -173,6 +173,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmbTipoCliente);
@@ -188,7 +189,7 @@
             this.Controls.Add(this.lblCampo1);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio11Form";
-            this.Text = "Ejercicio11Form";
+            this.Text = "11. Descuento en una compra";
             this.Load += new System.EventHandler(this.Ejercicio11Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

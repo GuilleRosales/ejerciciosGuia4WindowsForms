@@ -83,7 +83,19 @@ namespace ejerciciosGuia4WindowsForms
 
         private void btnConvertir_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtCampo1.Text) || string.IsNullOrWhiteSpace(txtCampo2.Text))
+            double num1;
+            double num2;
+
+            bool numero1Valido = double.TryParse(txtCampo1.Text, out num1);
+            bool numero2Valido = double.TryParse(txtCampo2.Text, out num2);
+
+            if (!numero1Valido)
+            {
+                MessageBox.Show("Ingrese valores numéricos válidos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtCampo1.Text))
             {
                 MessageBox.Show("Rellene todos los campos necesarios.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -96,6 +108,11 @@ namespace ejerciciosGuia4WindowsForms
             }
             if (rdbRectangulo.Checked)
             {
+                if (!numero1Valido || !numero2Valido)
+                {
+                    MessageBox.Show("Ingrese valores numéricos válidos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 double b = Convert.ToDouble(txtCampo1.Text);
                 double altura = Convert.ToDouble(txtCampo2.Text);
 
@@ -103,6 +120,11 @@ namespace ejerciciosGuia4WindowsForms
             }
             if (rdbTriangulo.Checked)
             {
+                if (!numero1Valido || !numero2Valido)
+                {
+                    MessageBox.Show("Ingrese valores numéricos válidos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 double b = Convert.ToDouble(txtCampo1.Text);
                 double altura = Convert.ToDouble(txtCampo2.Text);
 

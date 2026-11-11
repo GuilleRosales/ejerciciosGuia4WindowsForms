@@ -105,6 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblResultado);
@@ -113,7 +114,7 @@
             this.Controls.Add(this.nudEdad);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio8Form";
-            this.Text = "Ejercicio8Form";
+            this.Text = "8. Determinar si una persona es mayor de edad";
             this.Load += new System.EventHandler(this.Ejercicio8Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudEdad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

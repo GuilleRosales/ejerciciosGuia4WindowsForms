@@ -147,7 +147,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNum1);
             this.Name = "Ejercicio4Form";
-            this.Text = "Ejercicio4Form";
+            this.Text = "4. Suma de dos números";
             this.Load += new System.EventHandler(this.Ejercicio4Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

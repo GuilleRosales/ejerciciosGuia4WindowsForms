@@ -152,7 +152,7 @@
             this.Controls.Add(this.rdbCelciusFahrenheit);
             this.Controls.Add(this.txtTemperatura);
             this.Name = "Ejercicio6Form";
-            this.Text = "Ejercicio6Form";
+            this.Text = "6. Conversor de temperatura";
             this.Load += new System.EventHandler(this.Ejercicio6Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

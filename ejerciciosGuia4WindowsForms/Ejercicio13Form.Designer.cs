@@ -104,6 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.nudNumero);
@@ -112,7 +113,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lstResultados);
             this.Name = "Ejercicio13Form";
-            this.Text = "Ejercicio13Form";
+            this.Text = "13. Tabla de multiplicar";
             this.Load += new System.EventHandler(this.Ejercicio13Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudNumero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

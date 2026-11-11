@@ -104,6 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.nudNumero);
@@ -112,7 +113,7 @@
             this.Controls.Add(this.lstResultados);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio16Form";
-            this.Text = "Ejercicio16Form";
+            this.Text = "16. Factorial de un número";
             ((System.ComponentModel.ISupportInitialize)(this.nudNumero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

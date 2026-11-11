@@ -210,6 +210,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblCampo2);
@@ -226,7 +227,7 @@
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio7Form";
-            this.Text = "Ejercicio7Form";
+            this.Text = "7. Cálculo del área de figuras";
             this.Load += new System.EventHandler(this.Ejercicio7Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

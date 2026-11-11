@@ -24,6 +24,20 @@ namespace ejerciciosGuia4WindowsForms
 
         private void btnResultado_Click(object sender, EventArgs e)
         {
+            double num1;
+            double num2;
+
+            bool numero1Valido = double.TryParse(txtNota1.Text, out num1);
+            bool numero2Valido = double.TryParse(txtNota2.Text, out num2);
+            bool numero3Valido = double.TryParse(txtNota3.Text, out num2);
+
+
+            if (!numero1Valido || !numero2Valido || !numero3Valido)
+            {
+                MessageBox.Show("Ingrese valores numéricos válidos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (string.IsNullOrEmpty(txtNota1.Text) || string.IsNullOrEmpty(txtNota2.Text) || string.IsNullOrEmpty(txtNota3.Text))
             {
                 MessageBox.Show("Rellene todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);

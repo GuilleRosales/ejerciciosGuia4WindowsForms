@@ -115,7 +115,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio1Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ejercicio1Form";
+            this.Text = "1. Saludo personalizado";
             this.Load += new System.EventHandler(this.Ejercicio1Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

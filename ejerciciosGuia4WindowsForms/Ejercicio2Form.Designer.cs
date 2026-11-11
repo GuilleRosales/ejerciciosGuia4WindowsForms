@@ -179,7 +179,7 @@
             this.Controls.Add(this.txtNombre);
             this.Name = "Ejercicio2Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ejercicio2Form";
+            this.Text = "2. Datos personales";
             this.Load += new System.EventHandler(this.Ejercicio2Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudEdad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

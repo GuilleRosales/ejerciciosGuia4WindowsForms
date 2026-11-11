@@ -231,7 +231,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "Ejercicio3Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ejercicio3Form";
+            this.Text = "3. Cambio de apariencia";
             this.Load += new System.EventHandler(this.Ejercicio3Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudTamanoFuente)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
